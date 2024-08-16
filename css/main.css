@@ -6,6 +6,7 @@
 body {
     background-color: rgb(135, 216, 212);
     text-align: center;
+    padding: 15px;
 }
 .main {
     height: 100vh;
