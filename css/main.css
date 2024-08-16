@@ -1,7 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(135, 216, 212);
+    text-align: center;
+}
 .main {
+    height: 100vh;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.selector{
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn {
+    border-color: lightseagreen;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.btn:hover{
+    background-color: black;
+    color: rgb(135, 216, 212);
+}
+.name {
+    color: wheat;
+    font-size:xx-large;
 }
