@@ -42,3 +42,15 @@ body {
     color: wheat;
     font-size:xx-large;
 }
+.reset {
+    background-color: black;
+    color: rgb(135, 216, 212);
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.hidden {
+    display: none;
+}
